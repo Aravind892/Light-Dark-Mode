@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px;
+}
+.dark-mode {
+  background-color: black;
+  color: #ffffff;
+  padding: 12px;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: black;
+  padding: 12px;
+}
